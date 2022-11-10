@@ -17,8 +17,8 @@
     <section class="navbar">
         <div class="container">
             <div class="logo">
-                <a href="#" title="Logo">
-                    <img src="images/logo.png" alt="Restaurant Logo" class="img-responsive">
+                <a href="<?php echo SITEURL; ?>" title="Logo">
+                    <img src="images/ben-koorengevel-CBCOGvb6-Lg-unsplash.png" alt="Restaurant Logo" style="width:50%;">
                 </a>
             </div>
 
@@ -34,7 +34,7 @@
                         <a href="<?php echo SITEURL; ?>foods.php">Foods</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="<?php echo SITEURL; ?>contact.php">Contact</a>
                     </li>
                 </ul>
             </div>

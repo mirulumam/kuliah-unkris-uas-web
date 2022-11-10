@@ -1,5 +1,5 @@
 <!-- social Section Starts Here -->
-<section class="social">
+<!-- <section class="social">
         <div class="container text-center">
             <ul>
                 <li>
@@ -13,13 +13,13 @@
                 </li>
             </ul>
         </div>
-    </section>
+    </section> -->
     <!-- social Section Ends Here -->
 
     <!-- footer Section Starts Here -->
     <section class="footer">
         <div class="container text-center">
-            <p>All rights reserved. Designed By <a href="#">Vijay Thapa</a></p>
+            <p><?php echo FOOT_NOTE; ?></p>
         </div>
     </section>
     <!-- footer Section Ends Here -->

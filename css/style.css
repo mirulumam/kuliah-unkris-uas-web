@@ -98,6 +98,13 @@ fieldset{
 
 /* CSSS for navbar section */
 
+/*.navbar {
+    background-color: #47b4d1;
+}
+.navbar .menu li a {
+    color: #fafafa;
+}*/
+
 .logo{
     width: 10%;
     float: left;
@@ -209,6 +216,11 @@ fieldset{
     font-weight: bold;
 }
 
+.text-overflow {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
 
 
 /* CSS for Mobile Size or Smaller Screen */
