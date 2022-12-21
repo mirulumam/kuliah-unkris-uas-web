@@ -62,7 +62,7 @@
                 <tr>
                     <td>Price</td>
                     <td>
-                        <b><?php echo CURRENCY.$price; ?></b>
+                        <b><?php echo CURRENCY.number_format($price, 0, ",", "."); ?></b>
                     </td>
                 </tr>
 

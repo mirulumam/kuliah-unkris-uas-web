@@ -139,7 +139,7 @@
 
                         <div class="food-menu-desc">
                             <h4><?php echo $title; ?></h4>
-                            <p class="food-price"><?php echo CURRENCY.$price; ?></p>
+                            <p class="food-price"><?php echo CURRENCY.number_format($price, 0, ",", "."); ?></p>
                             <p class="food-detail text-overflow">
                                 <?php echo $description; ?>
                             </p>

@@ -81,7 +81,7 @@
 
                     ?>
 
-                    <h1><?php echo CURRENCY.$total_revenue; ?></h1>
+                    <h1><?php echo CURRENCY.number_format($total_revenue, 0, ",", "."); ?></h1>
                     <br />
                     Revenue Generated
                 </div>

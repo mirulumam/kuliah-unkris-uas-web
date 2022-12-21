@@ -74,7 +74,7 @@
                         <h3><?php echo $title; ?></h3>
                         <input type="hidden" name="food" value="<?php echo $title; ?>">
 
-                        <p class="food-price"><?php echo CURRENCY.$price; ?></p>
+                        <p class="food-price"><?php echo CURRENCY.number_format($price, 0, ",", "."); ?></p>
                         <input type="hidden" name="price" value="<?php echo $price; ?>">
 
                         <div class="order-label">Quantity</div>
